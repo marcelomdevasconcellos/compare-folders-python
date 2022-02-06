@@ -52,3 +52,4 @@ if __name__ == "__main__":
             have been modified.""", 
         required=True)
     args = parser.parse_args()
+    compare_foders(**args)
